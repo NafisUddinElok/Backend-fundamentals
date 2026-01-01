@@ -1,5 +1,5 @@
 const http = require("http");
-const server = http.createServer((req, res) => {
+const server = http.createServer((req/**client er request */, res/** server er response*/) => {
   // LOG incoming request
   console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
   if (req.url === "/") {
@@ -13,8 +13,8 @@ const server = http.createServer((req, res) => {
     res.end("Not Found");
   }
 });
-server.listen(3000, () => {
-  console.log("Server running at http://localhost:3000");
+server.listen(8080/**port number */, () => {
+  console.log("Server running at http://localhost:8080"); 
 }); // hello from node.js server
 
 
