@@ -4,11 +4,6 @@ const fs = require('node:fs');
 
 const path = require('node:path');
 
-/// file paths
-/***
- * 
- */
-
 
 // try {
 //   const stats = fs.statSync('/Users/joe/test.txt');
@@ -16,11 +11,9 @@ const path = require('node:path');
 //   console.error(err);
 // }
 
-
 // const readstCream = fs.createReadStream("data.txt");
 // const writestream = fs.createWriteStream("copy.txt");
 // readstCream.pipe(writestream); // er mane readstream theke writestream e chole jacch  chunk akaare
-
 
 // const stream= fs.createReadStream("data.txt", "utf8");
 // stream.on("open", (chunk) => {
