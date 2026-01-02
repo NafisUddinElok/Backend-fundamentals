@@ -5,3 +5,6 @@ dotenvx decrypt -f .env.production
 for again encrypting : 
 dotenvx encrypt -f .env.local
 dotenvx encrypt -f .env.production
+
+
+learning resource : dotenvx.com
