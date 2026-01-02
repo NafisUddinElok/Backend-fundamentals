@@ -1,0 +1,7 @@
+for decrypting : 
+dotenvx decrypt -f .env.local 
+dotenvx decrypt -f .env.production
+
+for again encrypting : 
+dotenvx encrypt -f .env.local
+dotenvx encrypt -f .env.production
